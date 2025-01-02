@@ -1,0 +1,60 @@
+.intro-line01{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    padding: 10px;
+}
+
+.chatboxright{
+    position: absolute;
+}
+
+.stickman01{
+    width: 100px;
+}
+
+.intro-line02{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.stickman02{
+    width: 100px;
+}
+
+.door{
+    width: 100px;
+}
+
+.urinal-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 100px;
+}
+
+.urinals-class{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.urinal-and-stickman{
+    position: relative;
+}
+
+.urinal{
+    width: 100px;
+}
+
+.urinating-stickman{
+    width: 150px;
+    position: absolute;
+    top: -15px;
+    left:-20px;
+}
