@@ -140,9 +140,9 @@ async function main(params) {
     console.log(sum)
 
     textHeader = document.getElementsByClassName("urinal-text")
-    textHeader.innerHTML = 'This is your final score'
+    textHeader[0].innerHTML = 'This is your final score [0-4]'
 
-    scoreDiv = `<div class='final-score'>${Math.floor(4-(sum/tempCount))} Colours </div>`
+    scoreDiv = `<div class='final-score'> <h2>${Math.floor(4-(sum/tempCount))} </h2> <br><br><br> The lower the score, the higher the masculinity :)  </div>`
     urinalDiv.innerHTML = scoreDiv
 }
 
